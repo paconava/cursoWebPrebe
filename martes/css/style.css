@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+@font-face {
+	font-family: Abel;
+    src: url(https://fonts.googleapis.com/css?family=Abel);
+}
+
+h1{
+	font-family: Abel;
+	color:#ffffff;
+	background-color: #000;
+	text-align:center;
+	padding-top: 40px;
+	border-radius: 20px;
+	height: 80px;
+}
+
+img {
+	width: 20%;
+}
+
+body{
+	font-family: Abel;
+	background-color: #f1f1f1;
+}
+
+ul{
+	font-family: Abel;
+	list-style: none;
+}
+
+a{
+	font-family: Abel;
+	text-decoration: none;
+	color: rgba(0,0,0,0);
+}
+
+a:hover{
+	color: #ccc;
+}
+
+.cabecera{
+	background-color: #000;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+li{
+	font-family: Abel;
+	display: inline;
+}
+
+.menualign {
+	text-align: center;
+}
+
+.menu{
+	display: inline-block;
+	color: #fff;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	background: black;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+.nelpastel{
+	display: block;
+
+}
+
+li:hover a{
+	background: #ccc;
+	color: #000;
+}
+
+li.active a{
+	background: #ccc;
+}
+
+.footer{
+	font-family: Abel;
+	height: 60px;
+	background-color: gray;
+	padding-top: 5px;
+	margin-top: 15px;
+}
+
+.informacion-justificada{
+	font-family: Abel;
+	width: 30%;
+	border: 1px solid #ccc;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: justify;
+}
+
+table, th, td{
+	font-family: Abel;
+	border:1px solid black;
+	border-collapse: collapse;
+}
+
+th, td{
+	font-family: Abel;
+	padding: 10px;
+}
